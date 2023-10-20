@@ -1,0 +1,88 @@
+.container{
+    width:70%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+    border: 100px solid black;
+    height: 770px;
+    color:black;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 20px;
+    text-align:left;
+    color: white;
+
+}
+.child{
+
+    border: 1.5px solid black;
+    padding: 2%;
+    background-color: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+    text-decoration: underline;
+    text-decoration-color: black;
+
+}
+.container .child:nth-child(1)
+{
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+body{
+    color:black;
+
+}
+.education{
+    width:60%;
+}
+
+.bookmark ul{
+    list-style: none;
+    margin-right: 10px;
+
+}
+
+
+.personal2 ul{
+    list-style: none;
+    
+}
+.resume
+{
+    display: flex;
+    justify-content: center;
+    color: #6495ED;
+}
+.about{
+    
+    padding-top: 100px;
+    padding-right:100px ;
+}
+.padding{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-right:100px ;
+}
+footer {
+    
+    color: #fff;
+    padding-left:auto;
+    padding-left: auto;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .name{
+    padding:10px;
+    
+  }
+  .ach{
+    padding-top: 50px;
+  }
+  .skillls{
+    padding-top: 50px;
+  }
+
+
